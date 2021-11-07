@@ -1,4 +1,6 @@
- # Class link, Zero Point Authentication
+
+
+# Class link, Zero Point Authentication
 
 A simple browser add on to bypass the two point authentication policy on [Classlink.com](https://launchpad.classlink.com/)
 
