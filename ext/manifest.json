@@ -1,0 +1,9 @@
+{
+  "description": "Bypass the two point authentication on Classlink.",
+  "manifest_version": 2,
+  "version": "0.2",
+  "name": "Classlink, Zero Point Authentication",
+  "options_ui": {"page": "options.html", "chrome_style": true, "browser_style": true},
+  "permissions": ["storage"],
+  "content_scripts": [{"matches": ["*://launchpad.classlink.com/*"], "js":["login.js"]}]
+}
